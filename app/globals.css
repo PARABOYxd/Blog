@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #1E3A8A;
+  --color-primary-light: #60A5FA;
+  --color-secondary: #F9FAFB;
+  --color-secondary-dark: #1F2937;
+  --color-accent: #60A5FA;
+  --color-accent-dark: #3B82F6;
+}
+
+html, body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.transition-all {
+  transition: all 0.3s ease-in-out;
+}
+
+.btn {
+  @apply px-4 py-2 rounded-md font-medium transition-all duration-300;
+}
+
+.btn-primary {
+  @apply bg-primary text-white hover:bg-primary-light;
+}
+
+.card {
+  @apply bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-all duration-300;
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
