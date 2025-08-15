@@ -47,8 +47,20 @@ export default async function Sidebar({ posts }: SidebarProps) {
       <div className="card">
         <h3 className="text-lg font-semibold mb-4">Advertisement</h3>
         <div className="bg-gray-200 dark:bg-gray-700 h-48 flex items-center justify-center">
-          <p className="text-gray-500 dark:text-gray-400">Google AdSense Placeholder</p>
+          {/* Google AdSense Ad */}
+          <ins className="adsbygoogle"
+            style={{ display: 'block', width: '100%', height: '100%' }}
+            data-ad-client="ca-pub-8722576979132394"
+            data-ad-slot="1234567890"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
         </div>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(adsbygoogle = window.adsbygoogle || []).push({});`
+          }}
+        />
       </div>
     </aside>
   );

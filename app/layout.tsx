@@ -58,6 +58,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         <meta name="google-site-verification" content="your-google-verification-code" />
+        <meta name="google-adsense-account" content="ca-pub-8722576979132394" />
         <meta name="author" content="Your Name or Finance Expert" />
         <link rel="icon" href="/favicon.ico" />
 
