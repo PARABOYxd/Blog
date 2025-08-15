@@ -122,8 +122,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         {/* Google AdSense */}
         <script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8722576979132394"
+          crossOrigin="anonymous"
         ></script>
+
+
 
         {/* Popup Attribution */}
         <div id="root">
